@@ -49,10 +49,10 @@ def get_cheapest_hotel(number):   #DO NOT change the function's name
     if (account1 < account2 and account3 <= account1):
         cheapest_hotel = "Ridgewood"
     
-    if (account2 < account1 and account2 < account3):
+    if (account2 <= account1 and account2 < account3):
         cheapest_hotel = "Bridgewood"
     
-    if (account2 < account1 and account3 <= account2):
+    if (account2 <= account1 and account3 <= account2):
         cheapest_hotel = "Ridgewood"
     
 
